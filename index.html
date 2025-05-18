@@ -7,46 +7,21 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport">
     <title>Aaron Tsang</title>
-    <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar {
-      background-color: #333;
-      overflow: hidden;
-      position: sticky;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-    }
-
-    .navbar a {
-      float: right;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    .navbar a:hover {
-      background-color: #575757;
-    }
-
-    .content {
-      padding: 20px;
-    }
-  </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
- <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </div>
+  <nav class="flex items-center justify-between p-4 text-white bg-indigo-800">
+    <div>
+        <a href="index.html">Home</a>
+    </div>
+    <div>
+        <a href="resume.html">Resume</a>
+    </div>
+      <div>
+          <a href="contact.html">Contact</a>
+      </div>
+  </nav>
 
   <div class="content">
     <h1>Welcome to My Site</h1>

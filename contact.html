@@ -6,53 +6,52 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport">
-    <title>Aaron Tsang</title>
-    <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar {
-      background-color: #333;
-      overflow: hidden;
-      position: sticky;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-    }
-
-    .navbar a {
-      float: right;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    .navbar a:hover {
-      background-color: #575757;
-    }
-
-    .content {
-      padding: 20px;
-    }
-  </style>
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
- <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </div>
+    <nav class="flex items-right justify-between p-4 text-white bg-indigo-800">
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="resume.html">Resume</a>
+        </div>
+        <div>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
 
-  <div class="content">
-    <h1>Work in Progress</h1>
-    <p>Contact Info Coming Soon....</p>
-  </div>
+    <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <h1 class="text-4xl font-bold mb-4">Contact Me</h1>
+        <p class="mb-4">Feel free to reach out via email or connect with me on social media!</p>
 
+       <div class="flex flex-col space-y-2 text-sm">
+        <a href="mailto:aarontsang2003@gmail.com" class="flex items-center space-x-2">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Email" width="24" height="24">
+            <span>aarontsang2003@gmail.com</span>
+        </a>
+
+        <a href="https://github.com/aarontsang" target="_blank" class="flex items-center space-x-2">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="24" height="24">
+            <span>@aarontsang</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aarontsang2003" target="_blank" class="flex items-center space-x-2">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+            <span>@in/aarontsang2003</span>
+        </a>
+
+        <a href="https://www.instagram.com/aaronwtsang" target="_blank" class="flex items-center space-x-2">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="24" height="24">
+            <span>@aaronwtsang</span>
+        </a>
+    </div>
+    
 </body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </html>
