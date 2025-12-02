@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport">
@@ -10,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-100">
     <nav class="flex justify-end p-4 text-white bg-indigo-800">
         <div class="flex space-x-6">
             <a href="index.html" class="hover:text-indigo-200 transition duration-300">Home</a>
@@ -19,43 +18,22 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-indigo-50 to-blue-100 px-6 py-16">
-        <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-5xl font-bold text-indigo-900 mb-6">My Resume</h1>
-            <p class="text-xl text-gray-700 mb-8">Computer Science Graduate | Software Engineer</p>
-            <div class="flex justify-center space-x-4 mb-8">
-                <a href="AaronTsangResum.pdf" download class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 flex items-center space-x-2">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                    </svg>
-                    <span>Download PDF</span>
-                </a>
-                <a href="contact.html" class="border-2 border-indigo-600 text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 hover:text-white transition duration-300">Contact Me</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Content Section -->
-    <section class="py-8 px-6 bg-white">
+    <section class="py-8 px-6 bg-gradient-to-br from-indigo-50 to-blue-100">
         <div class="max-w-6xl mx-auto">
-            <!-- PDF Viewer with enhanced styling -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
                 <div class="bg-gray-50 px-6 py-4 border-b border-gray-200">
                     <div class="flex items-center justify-between">
-                        <h2 class="text-lg font-semibold text-gray-800">Resume Document</h2>
+                        <h2 class="text-lg font-semibold text-gray-800">Resume</h2>
                         <div class="flex items-center space-x-4 text-sm text-gray-600">
                             <span>Last Updated: June 2025</span>
-                            <a href="AaronTsangResum.pdf" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition duration-300">Open in New Tab</a>
+                            <a href="AaronTsangResume.pdf" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition duration-300">Open in New Tab</a>
                         </div>
                     </div>
                 </div>
                 
-                <!-- PDF Embed with fallback -->
                 <div class="relative">
-                    <embed src="AaronTsangResum.pdf" type="application/pdf" width="100%" height="800px" class="min-h-screen" />
+                    <embed src="AaronTsangResume.pdf" type="application/pdf" width="100%" height="800px" class="min-h-screen" />
                     
-                    <!-- Fallback message for browsers that don't support PDF embedding -->
                     <div class="absolute inset-0 flex items-center justify-center bg-gray-50 text-center" style="display: none;" id="pdf-fallback">
                         <div class="max-w-md">
                             <svg class="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,7 +41,7 @@
                             </svg>
                             <h3 class="text-lg font-semibold text-gray-800 mb-2">Can't view the PDF?</h3>
                             <p class="text-gray-600 mb-4">Your browser doesn't support embedded PDFs.</p>
-                            <a href="AaronTsangResum.pdf" download class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Download Resume</a>
+                            <a href="AaronTsangResume.pdf" download class="bg-gradient-to-br from-indigo-800 to-blue-900 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-900 hover:to-blue-800 transition duration-300">Download Resume</a>
                         </div>
                     </div>
                 </div>
@@ -71,79 +49,21 @@
         </div>
     </section>
 
-    <!-- Additional Info Section -->
-    <section class="py-16 px-6 bg-gray-50">
-        <div class="max-w-4xl mx-auto">
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Resume Highlights -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Resume Highlights</h3>
-                    <ul class="space-y-3 text-gray-700">
-                        <li class="flex items-start space-x-2">
-                            <span class="text-indigo-600 mt-1">▶</span>
-                            <span>Bachelor of Science in Computer Science (June 2025)</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-indigo-600 mt-1">▶</span>
-                            <span>Focus on data processing, analysis, and robotics</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-indigo-600 mt-1">▶</span>
-                            <span>Proficient in Python, Java, C++, JavaScript</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-indigo-600 mt-1">▶</span>
-                            <span>Experience with Git, Docker, Linux, and Raspberry Pi</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-indigo-600 mt-1">▶</span>
-                            <span>Strong foundation in algorithms and software engineering</span>
-                        </li>
-                    </ul>
-                </div>
+    <div class="bg-gradient-to-br from-indigo-50 to-blue-100 flex justify-center">
+        <div class="flex justify-center space-x-4 mb-8">
+            <a href="AaronTsangResume.pdf" download class="bg-gradient-to-br from-indigo-800 to-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 flex items-center space-x-2 hover:from-indigo-900 hover:to-blue-800">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <span>Download PDF</span>
+            </a>
 
-                <!-- Why Hire Me -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Why Hire Me?</h3>
-                    <ul class="space-y-3 text-gray-700">
-                        <li class="flex items-start space-x-2">
-                            <span class="text-green-600 mt-1">✓</span>
-                            <span>Fresh perspective with strong technical foundation</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-green-600 mt-1">✓</span>
-                            <span>Passionate about robotics and emerging technologies</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-green-600 mt-1">✓</span>
-                            <span>Quick learner with excellent problem-solving skills</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-green-600 mt-1">✓</span>
-                            <span>Ready to contribute and grow with your team</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-green-600 mt-1">✓</span>
-                            <span>Eager to apply academic knowledge to real-world projects</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <a href="contact.html" class="bg-gradient-to-br from-indigo-800 to-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 hover:from-indigo-900 hover:to-blue-800 flex items-center justify-center">
+                Contact Me
+            </a>
         </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="py-16 px-6 bg-indigo-600">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold text-white mb-6">Ready to Work Together?</h2>
-            <p class="text-xl text-indigo-100 mb-8">Let's discuss how I can contribute to your team and projects</p>
-            <div class="flex justify-center space-x-4">
-                <a href="AaronTsangResum.pdf" download class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Download Resume</a>
-                <a href="contact.html" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">Get In Touch</a>
-            </div>
-        </div>
-    </section>
-
+    </div>
+    
 </body>
 
 </html>
