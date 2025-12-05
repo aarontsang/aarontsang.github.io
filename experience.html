@@ -6,10 +6,16 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport">
     <title>Experience - Aaron Tsang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-br from-indigo-50 to-blue-100">
+<body class="min-h-screen bg-gradient-to-br from-indigo-50 to-blue-100 flex flex-col">
     <nav class="flex justify-end p-4 text-white bg-indigo-800">
         <div class="flex space-x-6">
             <a href="index.html" class="hover:text-indigo-200 transition duration-300">Home</a>
@@ -20,62 +26,72 @@
         </div>
     </nav>
 
-    <main class="py-12 px-6">
-        <div class="max-w-5xl mx-auto">
-            <header class="text-center mb-10">
-                <h1 class="text-3xl md:text-4xl font-bold text-indigo-900">Experience</h1>
-            </header>
-        </div>
-        
-        <div class="max-w-3xl mx-auto">
-            <header class="text-align: left mb-10">
-                <h1 class="text-lg md:text-2xl font-bold text-indigo-900">Education</h1>
+    <main class="flex-1 py-12 px-6">
+        <div class="max-w-2xl mx-auto space-y-12">
+            <header class="text-center">
+                <h1 class="text-3xl md:text-4xl font-bold text-indigo-900">Experience & Skills</h1>
             </header>
 
-            <div class="max-w-md mx-auto" style="margin-bottom: 20px">
+            <section>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Education</h2>
                 <div class="bg-white p-6 rounded-lg shadow border border-gray-200">
-                    <div class="flex items-start justify-between">
-                        <div class="space-y-6">
-                            <p>UC Irvine - Class of 2025</p>
+                    <div class="flex items-center space-x-6">
+                        <img src="logos/uci.png" alt="UCI Logo" class="w-16 h-16 object-contain">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">University of California, Irvine</h3>
+                            <p class="text-gray-600">B.S. Computer Science — Class of 2025</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <header class="text-align: left mb-10">
-                <h1 class="text-lg md:text-2xl font-bold text-indigo-900">Professional Career</h1>
-            </header>
+            <section>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Professional Career</h2>
+                <div class="space-y-4">
 
-            <div class="max-w-md mx-auto">
-                <div class="bg-white p-8 rounded-lg shadow-lg" style="margin-bottom: 20px">
-                    <div class="space-y-6">
-                        <p>Oracle -- Current</p>
+                    <div class="bg-white p-6 rounded-lg shadow border border-gray-200">
+                        <div class="flex items-center space-x-6">
+                            <img src="logos/oracle.png" alt="Oracle Logo" class="w-16 h-16 object-contain flex-shrink-0">
+                            <div class="flex-1">
+                                <h3 class="text-lg font-semibold text-gray-800">Software Engineer — Oracle</h3>
+                                <p class="text-gray-600">Current</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow border border-gray-200">
+                        <div class="flex items-center space-x-6">
+                            <img src="logos/oracle.png" alt="Oracle Logo" class="w-16 h-16 object-contain flex-shrink-0">
+                            <div class="flex-1">
+                                <h3 class="text-lg font-semibold text-gray-800">OCI Intern — Oracle</h3>
+                                <p class="text-gray-600">Summer 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow border border-gray-200">
+                        <div class="flex items-center space-x-6">
+                            <img src="logos/sap.png" alt="SAP Logo" class="w-16 h-16 object-contain flex-shrink-0">
+                            <div class="flex-1">
+                                <h3 class="text-lg font-semibold text-gray-800">QA Intern — SAP</h3>
+                                <p class="text-gray-600">Summer 2023 - Summer 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow border border-gray-200">
+                        <div class="flex items-center space-x-6">
+                           <img src="logos/informatica.png" alt="Informatica Logo" class="w-16 h-16 object-contain flex-shrink-0">
+                            <div class="flex-1">
+                                <h3 class="text-lg font-semibold text-gray-800">Software Development Intern — Informatica</h3>
+                                <p class="text-gray-600">Summer 2022</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-lg" style="margin-bottom: 20px">
-                    <div class="space-y-6">
-                        <p>Oracle Intern -- Summer 2024</p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-lg" style="margin-bottom: 20px">
-                    <div class="space-y-6">
-                        <p>SAP Intern -- Summer 2023 - Summer 2024</p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-lg" style="margin-bottom: 20px">
-                    <div class="space-y-6">
-                        <p>Informatica -- Summer 2022</p>
-                    </div>
-                </div>
-            </div>
-                
-            <header class="text-align: left mb-10">
-                <h1 class="text-lg md:text-2xl font-bold text-indigo-900">Technologies and Frameworks</h1>
-            </header>
-
+            </section>
         </div>
     </main>
 </body>
+
+</html>
