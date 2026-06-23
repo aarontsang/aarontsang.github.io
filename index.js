@@ -1,6 +1,6 @@
 window.onload = () => {
     const element = document.getElementById("typed-name");
-    const message = "Hi, I'm Aaron Tsang";
+    const message = "Hey! My name is Aaron";
     let index = 0;
 
     function type() {
